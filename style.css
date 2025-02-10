@@ -458,7 +458,9 @@ input {
 	background-color: white;
 	box-shadow: 0 0 3px;
 	width: 100%;
-	height: 93%;
+	height: 100%;
+	display: inline-grid;
+	grid-template-rows: repeat(1, 35fr) repeat(1, 30fr) repeat(1, 35fr);
 }
 
 .card2 {
@@ -476,7 +478,7 @@ p {
 
 .bottom-cards {
 	display: inline-grid;
-	grid-template-columns: repeat(1, 9fr) repeat(1, 2fr) repeat(1, 2fr) repeat(1, 2fr);
+	grid-template-columns: repeat(1, 12fr) repeat(1, 2fr) repeat(1, 2fr) repeat(1, 2fr);
 	align-items: center;
 
 }
@@ -516,6 +518,67 @@ p {
 	margin-left: 3%;
 	color: rgb(75, 68, 68);
 }
+
+.div-right-card {
+	display: inline-grid;
+    width: 80%;
+    height: 100%;
+	justify-self: center;
+	border-top: 1px solid rgb(75, 68, 68);
+	display: inline-grid;
+	grid-template-rows: repeat(1, 2fr) repeat(1, 4fr);
+}
+
+.div-right-card:first-child {
+	border-top: none;
+}
+
+.title-right-card {
+	font-weight: bold;
+	font-size: 0.8rem;
+	margin-top: 5%;
+}
+
+.text-right-card {
+	color: rgb(75, 68, 68);
+	font-size: 0.7rem;
+	margin-bottom: 5%;	
+}
+
+.card2 {
+	display: inline-grid;
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-columns: repeat(1, 1fr) repeat(1, 2.5fr);
+	padding-bottom: 5%;
+	padding-top: 5%;
+	padding-left: 7%;
+	row-gap: 5%;	
+}
+
+.user-avatar {
+	width: 70%;
+	height: auto;
+	align-self: center;
+}
+
+.user-profile {
+	display: inline-grid;
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.user-nickname {
+	font-size: 0.85rem;
+}
+
+.user-bio {
+	font-size: 0.85rem;
+	color:rgb(75, 68, 68)
+}
+
+
+
+
+
 
 
 
