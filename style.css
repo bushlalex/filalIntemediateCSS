@@ -136,8 +136,8 @@ html {
 	display: flex;
 	justify-content: start;
 	align-items: start;
-	width: 100%;
-	height: 100%;
+	width: max(1100px, 100vw);
+	height: max(900px, 100vh);
 
 }
 
