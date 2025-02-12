@@ -132,17 +132,18 @@ summary {
 }
 
 
-html {
-	height: 1200px;
-	width: 100vw;
+html {	
 	display: flex;
 	justify-content: start;
 	align-items: start;
+	width: 100%;
+	height: 100%;
+
 }
 
 body {
-	height: 100%;
 	width: 100%;
+	height: 100%;
 	display: inline-grid;
 	grid-template-columns: repeat(1, 2fr) repeat(1, 8fr);
 	grid-template-rows: repeat(1, 2fr) repeat(1, 12fr);
